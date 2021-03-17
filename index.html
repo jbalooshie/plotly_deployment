@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -16,10 +18,11 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
+        
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-7 col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -32,23 +35,26 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-7 col-md-5">
         <div id="bar"></div>
+        <p>This chart shows the top 10 cultures found in your navel.</p>
       </div>
-      <div class="col-md-5">
+      <div class="col-7 col-md-5">
         <div id="gauge"></div>
+        <p>This chart shows how many times per week you wash your navel.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p>This chart shows all bacteria samples found in your navel.</p>
       </div>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="js/charts.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
 
