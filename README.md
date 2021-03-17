@@ -1,1 +1,3 @@
 # plotly_deployment
+## Summary
+The purpose of this project is to create an interacitve dashboard to showcase the results of samples collected from participant's navels. The dashboard shows the participant's information, a bar graph of the top 10 bacteria cultures found, a gauge showing how often they wash their navel, and a bubble chart showing all cultures found in their navel. There is a dropdown that allows participants to find their information based on their test subject ID number, which preserves privacy. If the sponsor of the study identifies a specific bacteria culture they are interested in, participants can check if it was present in their navels.
